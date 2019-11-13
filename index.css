@@ -1,0 +1,56 @@
+.yellowBgColor {
+    background-color: yellow;
+    color: red;
+}
+.whiteBgColor {
+    background-color: white;
+    color: black;
+}
+.redBgColor {
+    background-color: red;
+    color: white;
+}
+
+div.box {
+    border: 1px solid rgb(200,200,200);
+}
+
+h3.box_heading {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+div.box_content {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.box_content.hide {
+    display: none;
+}
+
+span.indicator {
+    float: right;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-top: 4px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+span.indicator.hide {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 5px solid black;
+}
+
+div.panel {
+    margin-top: 30px;
+}
